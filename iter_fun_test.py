@@ -34,3 +34,15 @@ list( itertools.takewhile(vowel,'Aardvark'))
 
 #%%
 list( itertools.compress('Aardvark',(1,0,1,1,0,1)))
+
+#%%
+list( itertools.compress('Aardvark',(1,0,1,1,0,1)))
+
+#%%
+list( itertools.islice('Aardvark',4,7))
+
+#%%
+list( itertools.islice('Aardvark',4,7))
+
+#%%
+list( itertools.islice('Aardvark',1,7,2)),list( itertools.islice('Aardvark',2))
